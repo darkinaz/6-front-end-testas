@@ -11,9 +11,6 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #F6F8FC;
-    
-
-    
 }
 main {
     display: inline-block;
@@ -22,6 +19,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    
 }
 .left-column {
     width: 40%;
@@ -32,17 +30,43 @@ main {
     background-size: cover;
     background-position:center;
     color: white;
+    position: absolute;
+    
 }
 .main-title {
-    color: #000;
+    color: #3751FF;
+    width: 80%;
+    font-size: 38px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 120px;
+
 }
-.uper-text {
-    color: black;
+.upper-text {
+    color: #202F53;
+    width: 80%;
+    font-size: 45px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 100px;
+    
 
 }
 .lower-text {
-    color: black;
+    color: #8A8C9B;
+    width: 80%;
+    font-size: 23px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 25px;
 
+
+
+}
+.bottom-links {
+    margin-top: 85px;
+    color: steelblue;
+    
 }
 
 /* Right-SIDE*/
@@ -56,4 +80,6 @@ main {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom;
+    position: relative;
+
 }
