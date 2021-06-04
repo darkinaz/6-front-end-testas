@@ -1,9 +1,41 @@
 .form {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 35px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 23px;
 
 }
 .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px ;
+    border: none ;
+    color: seagreen;
+    margin-top: 20px;
+
 
 }
-.form-row.container {
+.form-row > label {
+    display: inline-block;
+    color: sandybrown;
+    flex-direction: row;
+    margin-top: 0;
+    
+
+}
+.form-row > input {
+    border: none;
+
+}
+.form-row-container {
+    display: inline-block;
+    flex-direction: row;
+    color: rgb(226, 51, 51);
+    margin-top: 35px;
 
 }
