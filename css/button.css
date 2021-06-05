@@ -1,7 +1,22 @@
 button {
-    margin-top: 60px;
     font-size: 23px;
-    border: none ;
-    padding: 10px solid #000;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: 30px;
+    border: none;
+    padding: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px
+} 
+.left-button {
+    background-color: #3751FF;
+    color: white;
     
+}  
+.right-button {
+    background-color: #FFFFFF;
+    color: #3751FF;
 }
+
+

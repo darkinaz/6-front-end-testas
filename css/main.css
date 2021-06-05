@@ -10,7 +10,7 @@ body * {
 body {
     height: 100vh;
     width: 100%;
-    background-color: #F6F8FC;
+    background-color: #fff;
 }
 main {
     display: inline-block;
@@ -28,7 +28,7 @@ main {
     background-image: url(../img/left-pic.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position:top;
     color: white;
     position: absolute;
     
@@ -65,7 +65,12 @@ main {
 }
 .bottom-links {
     margin-top: 85px;
+    display: flex;
     color: steelblue;
+    flex-direction: row;
+    gap: 40px;
+    text-decoration: none;
+
     
 }
 
