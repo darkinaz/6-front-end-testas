@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in</title>
-    <link rel="shortcut icon" href="./img/favicon.png"">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="../img/favicon.png"">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
 
 </head>
 <body>
@@ -20,6 +20,10 @@
             <p class="lower-text">Welcome Back, Please login to your account</p>
             <form class="form">
                 <div class="form-row">
+                    <label for="username">Username</label>
+                    <input type="text" id="text" required placeholder="Your username goes here">
+                </div>
+                <div class="form-row">
                     <label for="email">Email</label>
                     <input type="email" id="email" required placeholder="Email">
                 </div>
@@ -27,29 +31,24 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" required placeholder="Password" >
                 </div>
-            <div class="form-row-container">
-                    <label>
-                        <input type="checkbox">
-                        Remember me
-                    </label>
-                    <a href="#">Forget password ?</a>
+                <div class="form-row">
+                    <label for="re-password">Repeat-Password</label>
+                    <input type="password" id="password" required placeholder="Repeat Password" >
                 </div>
             <div class="button">
-                <button class="left-button" type="submit">Login
-                    <a href="#"></a>
+                <button class="left-button" type="submit">Sign up
+                    <a href="../sign-up/index.html"></a>
                 </button>
-                
-                <button class="right-button" type="submit">Sign Up
-                    <a href="#"></a>
+                <button class="right-button" type="submit">forgot password
+                    <a href="../forgot-password/index.html"></a>
                 </button>
 
             </div>
             <div class="bottom-links">
                 <span>Or login with</span>
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">LinkedIn</a>
-                <a href="#" target="_blank">Google</a>
-            </div>
+                <a href="#" target="_blank">Or login with</a>
+                <a href="#" target="_blank">Or login with</a>
+                <a href="#" target="_blank">Or login with</a>
             </form>
         </div>
         <div class="right-column">Picture</div>

@@ -68,7 +68,7 @@ main {
     display: flex;
     color: steelblue;
     flex-direction: row;
-    gap: 40px;
+    gap: 40px
     
 }
 .bottom-links > a {
