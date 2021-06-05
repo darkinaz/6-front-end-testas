@@ -7,16 +7,14 @@ button {
     padding: 17px;
     padding-left: 50px;
     padding-right: 50px;
-    border-radius: 5px
+    border-radius: 5px;
+    cursor: pointer;
 } 
 .left-button {
+    color: #ffff;
     background-color: #3751FF;
-    color: white;
-    
-}  
-.right-button {
-    background-color: #FFFFFF;
-    color: #3751FF;
 }
-
-
+.right-button {
+    color: #3751FF;
+    background-color: #ffff;
+}

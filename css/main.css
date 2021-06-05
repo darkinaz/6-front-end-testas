@@ -69,11 +69,12 @@ main {
     color: steelblue;
     flex-direction: row;
     gap: 40px;
-    text-decoration: none;
-
     
 }
-
+.bottom-links > a {
+    text-decoration: none;
+    color: #3950F3;
+}
 /* Right-SIDE*/
 
 .right-column {
